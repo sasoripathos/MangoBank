@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bank.bank.AccountDetail"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/OneAccountInformation"
+        android:layout_width="fill_parent"
+        android:layout_height="128dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="32dp"
+        android:textAlignment="center"
+        android:text="@string/AccountInforInitial"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/AtmDepositButton"
+        android:layout_marginTop="64dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_gravity="center"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/AtmDepositButton"/>
+
+    <Button
+        android:id="@+id/AtmWithdrawalButton"
+        android:layout_gravity="center"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textAllCaps="false"
+        android:text="@string/AtmWithdrawalButton"/>
+
+    <Button
+        android:id="@+id/BackButton"
+        android:layout_gravity="center"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textAllCaps="false"
+        android:text="@string/BackButton"/>
+
+</LinearLayout>

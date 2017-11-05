@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bank.bank.Bank"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/LoginGreeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="@string/LoginGreeting"
+        android:textSize="38sp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <EditText
+        android:id="@+id/userId"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:ems="16"
+        android:inputType="number"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:ems="500"
+        android:inputType="textPassword"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/LoginButton"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="48dp"
+        android:text="@string/LoginInButtonContent" />
+
+
+</LinearLayout>

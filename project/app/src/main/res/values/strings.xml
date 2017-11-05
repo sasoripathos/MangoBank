@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">MangoBank</string>
+
+    <!-- Strings related to mode choice >
+    <string name="AtmButtomContent">ATM</string>
+    <string name="TellerTerminalButtomContent">Teller Terminal</string>
+    <string name="AdminTerminalButtomContent">Admin Terminal</string-->
+
+    <!-- Strings related to login-->
+    <string name="LoginGreeting">Welcome to MangoBank</string>
+    <string name="LoginInButtonContent">Login</string>
+    <!--String in AtmMain-->
+    <string name="AllMessages">All Messages</string>
+    <string name="Logout">Sign Out</string>
+    <string name="CustomerInforInitial">Name:\nAddress:\n</string>
+    <!--String in AccountDetail-->
+    <string name="AccountInforInitial">Account Name (Account Type):\nBalance: $\n</string>
+    <string name="AtmWithdrawalButton">Withdrawal</string>
+    <string name="AtmDepositButton">Deposit</string>
+    <string name="BackButton">Back</string>
+
+    <!--String in Withdrawal and Deposit screen-->
+    <string name="withdrawButt">Withdraw</string>
+    <string name="despositButt">Deposit</string>
+    <string name="amountPrompt">Enter Amount</string>
+    <string name="accountPrompt">Choose Account</string>
+    <string name="withdrawGreet">Withdraw Funds</string>
+    <string name="despositGreet">Desposit Funds</string>
+
+    <!--Strings in TellerTerminalMenuActivity-->
+    <string name="sign_out">Sign Out</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_address">Change Address</string>
+    <string name="change_name">Change Name</string>
+    <string name="give_interest_all">Give Interest to All Accounts</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="customer_messages">Customer Messages</string>
+    <string name="leave_message_for_customer">Leave Message For Customer</string>
+    <string name="deposit">Deposit</string>
+    <string name="list_accounts">List Accounts</string>
+    <string name="give_interest">Give Interest</string>
+    <string name="customer_sign_out">Customer Sign Out</string>
+    <string name="view_messages">View Messages</string>
+    <string name="make_new_account">Make New Account</string>
+    <string name="make_new_customer">Make New Customer</string>
+
+    <!--Strings in MakeNewCustomerActivity-->
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="password">Password</string>
+    <string name="create_customer_prompt">Fill in the fields to create a new customer.</string>
+    <string name="create_teller_prompt">Fill in the fields to create a new teller.</string>
+    <string name="create_admin_prompt">Fill in the fields to create a new admin.</string>
+    <string name="age">Age</string>
+    <string name="create">Create</string>
+    <string name="balance">Balance</string>
+    <string name="create_new_account_prompt">fill in the fields to create a new account</string>
+
+    <!--Strings in MakeNewCustomerActivity-->
+    <string-array name="account_types_array">
+        <item>Saving</item>
+        <item>Chequing</item>
+        <item>TFSA</item>
+        <item>RestrictedSavings</item>
+        <item>BalanceOwing</item>
+    </string-array>
+
+    <!--Strings in AdminTerminalMainActivity-->
+    <string name="welcome">Welcome Admin!</string>
+    <string name="exit">Exit</string>
+    <string name="Message">Message</string>
+    <string name="change_to_admin">Change to Admin</string>
+    <string name="get_balance"> Get the Balance</string>
+    <string name="list"> list the user</string>
+    <string name="create_new">Create</string>
+    <string name="serialize">Serialize</string>
+    <string name="deserialize">Deserialize</string>
+
+    <!--Strings in AdminCreate-->
+    <string name="createAdmin">Create a new admin</string>
+    <string name="createTeller">Create a new teller</string>
+
+    <!--Strings in AdminListUsers-->
+    <string name="list_admins">List all admins</string>
+    <string name="list_tellers">List all tellers</string>
+    <string name="list_customers">List all customers</string>
+
+    <!--Strings in AdminGetBalance-->
+    <string name="get_all_balance">Get all balance</string>
+    <string name="get_current_balance">Get current customer balance</string>
+    <string name="get_the_balance">Get</string>
+    <string name="currentCustomerId">CustomerID</string>
+    <string name="enterCustomerId">Please enter your customer ID</string>
+
+    <!--Strings in AdminChangeToAdmin-->
+    <string name="tellerid">Teller ID</string>
+    <string name="change">Change</string>
+    <string name="enterTellerId">Please Enter your teller ID.</string>
+
+    <!--Strings in AdminMessage-->
+    <string name="viewYourMessages">View your message</string>
+    <string name="viewSpecificMessage">View specific message</string>
+    <string name="leaveMessage">Leave Message</string>
+    <string name="enterId">Please enter your user ID</string>
+    <string name="currentId">User ID</string>
+
+    <!--Strings in ListAdmins-->
+    <string name="admininit">Here is all of the Admins information.</string>
+    <string name="tellerinit">Here is all of the Tellers information.</string>
+    <string name="customerinit">Here is all of the Customers information.</string>
+
+    <!--Strings in ListAccounts-->
+    <string name="accountGreet">Accounts</string>
+    <string name="accountNames">Account Name</string>
+    <string name="accIds">ID</string>
+    <string name="accBal">Balance</string>
+    <string name="choiceD">Choose Account to Deposit to</string>
+    <string name="choiceW">Choose Account to Withdraw from</string>
+
+    <!--Strings in MailActivity-->
+    <string name="mailGreet">Mail Confirmation</string>
+    <string name="emailHint">Enter Email Address</string>
+    <string name="mailButt">Send Confirmation</string>
+
+
+</resources>

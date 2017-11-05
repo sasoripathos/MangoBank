@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AtmMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bank.bank.AtmMainActivity">
+
+
+    <TextView
+        android:id="@+id/CustomerInfor"
+        android:layout_width="fill_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="18sp"
+        android:fontFamily="casual"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:text="@string/CustomerInforInitial"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/CustomerList" />
+
+    <ListView
+        android:id="@+id/CustomerList"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_height="375dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:layout_below="@id/CustomerInfor"
+        android:background="@color/colorWhite"
+        android:contextClickable="true">
+    </ListView>
+
+    <Button
+        android:id="@+id/Logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textAllCaps="false"
+        android:text="@string/Logout"
+        android:layout_below="@id/CustomerList"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:id="@+id/CustomerAllMessages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:textAllCaps="false"
+        android:text="@string/AllMessages"
+        android:layout_below="@id/CustomerList"
+        android:layout_alignParentEnd="true"
+        />
+
+
+</RelativeLayout>

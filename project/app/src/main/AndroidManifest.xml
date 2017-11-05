@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.bank.bank">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Bank">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".AtmMainActivity"/>
+        <activity android:name=".AccountDetail"/>
+        <activity android:name=".AdminTerminalMainActivity"/>
+        <activity android:name=".TellerTerminalMenuActivity"/>
+        <activity android:name=".MakeNewCustomerActivity"/>
+        <activity android:name=".MakeNewAccountActivity"/>
+        <activity android:name=".MessageSelectActivity"/>
+        <activity android:name=".AdminCreate"/>
+        <activity android:name=".AdminListUsers"/>
+        <activity android:name=".AdminGetBalance"/>
+        <activity android:name=".AdminChangeToAdmin"/>
+        <activity android:name=".AdminMessage"/>
+        <activity android:name=".AdminListAdmins"/>
+        <activity android:name=".AdminListCustomers"/>
+        <activity android:name=".AdminListTellers"/>
+        <activity android:name=".AdminGetAllBalance"/>
+        <activity android:name=".AdminGetCurrentBalance"/>
+        <activity android:name=".AdminCreateAdmin"/>
+        <activity android:name=".AdminCreateTeller"/>
+        <activity android:name=".ListAccounts"/>
+        <activity android:name=".MailActivity"/>
+        <activity android:name=".ReadMessageActivity"/>
+        <activity android:name=".AdminLeaveMessage">
+        </activity>
+        <activity android:name=".AdminSpecificMessage">
+        </activity>
+    </application>
+
+</manifest>
